@@ -9,4 +9,19 @@ p{
 input{
     margin-top: 5px;
     margin-bottom: 10px;
+    transition-duration: 0.3s;
+    border: 1px solid black;
+}
+
+button{
+    transition-duration: 0.3s;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color: coral;
+}
+
+input:hover{
+    background-color: coral;
 }

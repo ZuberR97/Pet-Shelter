@@ -1,0 +1,17 @@
+h4{
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+p{
+    margin: 3px 0px;
+}
+
+button{
+    transition-duration: 0.3s;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color: coral;
+}
