@@ -1,0 +1,11 @@
+<h2>Details about {{ pet.name }}</h2>
+<button (click)="homeClick()">Home</button>
+<h4>Pet Type: </h4>
+<p>{{ pet.type }}</p>
+<h4>Description: </h4>
+<p>{{ pet.description }}</p>
+<h4>Skills: </h4>
+<p>{{ pet.skill1 }}</p>
+<p>{{ pet.skill2 }}</p>
+<p>{{ pet.skill3 }}</p>
+<button (click)="adopt(pet._id)">Adopt this pet!</button>

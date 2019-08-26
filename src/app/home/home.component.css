@@ -1,0 +1,41 @@
+.subcontainer{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+.newbutton{
+    transition-duration: 0.3s;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.newbutton:hover{
+    background-color: coral;
+}
+
+.scrollbar{
+    overflow: auto;
+    text-align: center;
+    table-layout: auto;
+    height: 200px;
+    font-size: 20px;
+}
+
+.scrollbar button{
+    width: 60px;
+    transition-duration: 0.3s;
+    border: 1px solid black;
+    margin-right: 2px;
+    font-size: 16px;
+}
+
+.scrollbar button:hover{
+    background-color: coral;
+}
+
+th, td{
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+}

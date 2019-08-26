@@ -1,0 +1,15 @@
+.container{
+    background-image: url('https://www.petsandmoneysummit.com/sites/default/files/styles/cover_image_full/public/event_cover_images/pets_and_money_hero_image_-_minus_guinea.png?itok=JA-jklht');
+    height: 800px;
+    width: 1500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.content{
+    display: inline-block;
+}
+
+tr{
+    width: 100px;
+}

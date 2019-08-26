@@ -1,0 +1,21 @@
+<h2>Know of a pet needing a home?</h2>
+<form>
+    <p *ngIf="name.errors !== null">This pet requires a name of at least 3 characters.</p><br>
+    <p>Pet Name: </p>
+    <input type="text" name="newPet.name" required minlength="3" [(ngModel)]="newPet.name" #name='ngModel'><br>
+    <p *ngIf="type.errors !== null">This pet requires a type of at least 3 characters.</p><br>
+    <p>Pet Type: </p>
+    <input required minlength="3" #type='ngModel' type="text" name="newPet.type" [(ngModel)]="newPet.type"><br>
+    <p *ngIf="description.errors !== null">This pet requires a description of at least 3 characters.</p><br>
+    <p>Description: </p>
+    <input required minlength="3" #description='ngModel' type="text" name="newPet.description" [(ngModel)]="newPet.description"><br>
+    <p>Skills (Optional): </p><br>
+    <label for="">Skill 1: </label>
+    <input type="text" name="skill1" [(ngModel)]="newPet.skill1"><br>
+    <label for="">Skill 2: </label>
+    <input type="text" name="skill2" [(ngModel)]="newPet.skill2"><br>
+    <label for="">Skill 3: </label>
+    <input type="text" name="skill3" [(ngModel)]="newPet.skill3"><br>
+    <input (click)="Create()" type="submit" value="Add Pet">
+    <button (click)="homeClick()">Cancel</button>
+</form>
